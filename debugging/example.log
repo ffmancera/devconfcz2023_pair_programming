@@ -1,0 +1,55 @@
+Jun 17 09:31:30 fedora NetworkManager[1398]: <info>  [1686987090.8245] device (p2p-dev-wlp0s20f3): state change: unavailable -> unmanaged (reason 'removed', sys-iface-state: 'removed')
+Jun 17 09:31:30 fedora NetworkManager[1398]: <info>  [1686987090.8252] Wi-Fi P2P device controlled by interface wlp0s20f3 created
+Jun 17 09:31:30 fedora NetworkManager[1398]: <info>  [1686987090.8257] manager: (p2p-dev-wlp0s20f3): new 802.11 Wi-Fi P2P device (/org/freedesktop/NetworkManager/Devices/4)
+Jun 17 09:31:30 fedora NetworkManager[1398]: <info>  [1686987090.8263] device (p2p-dev-wlp0s20f3): state change: unmanaged -> unavailable (reason 'managed', sys-iface-state: 'external')
+Jun 17 09:31:30 fedora NetworkManager[1398]: <info>  [1686987090.8270] device (wlp0s20f3): state change: unavailable -> disconnected (reason 'supplicant-available', sys-iface-state: 'managed')
+Jun 17 09:31:30 fedora NetworkManager[1398]: <info>  [1686987090.8279] device (p2p-dev-wlp0s20f3): state change: unavailable -> disconnected (reason 'none', sys-iface-state: 'managed')
+Jun 17 09:31:34 fedora NetworkManager[1398]: <info>  [1686987094.3472] policy: auto-activating connection 'vutbrno' (ae00dc74-bc71-459f-839e-5a4b8d3ef21b)
+Jun 17 09:31:34 fedora NetworkManager[1398]: <info>  [1686987094.3474] device (wlp0s20f3): Activation: starting connection 'vutbrno' (ae00dc74-bc71-459f-839e-5a4b8d3ef21b)
+Jun 17 09:31:34 fedora NetworkManager[1398]: <info>  [1686987094.3475] device (wlp0s20f3): state change: disconnected -> prepare (reason 'none', sys-iface-state: 'managed')
+Jun 17 09:31:34 fedora NetworkManager[1398]: <info>  [1686987094.3476] manager: NetworkManager state is now CONNECTING
+Jun 17 09:31:34 fedora NetworkManager[1398]: <info>  [1686987094.3587] device (wlp0s20f3): set-hw-addr: reset MAC address to BC:09:1B:F1:A8:4C (preserve)
+Jun 17 09:31:34 fedora NetworkManager[1398]: <info>  [1686987094.3598] device (wlp0s20f3): state change: prepare -> config (reason 'none', sys-iface-state: 'managed')
+Jun 17 09:31:34 fedora NetworkManager[1398]: <info>  [1686987094.3599] device (wlp0s20f3): Activation: (wifi) connection 'vutbrno' requires no security.  No secrets needed.
+Jun 17 09:31:34 fedora NetworkManager[1398]: <info>  [1686987094.3599] Config: added 'ssid' value 'vutbrno'
+Jun 17 09:31:34 fedora NetworkManager[1398]: <info>  [1686987094.3599] Config: added 'scan_ssid' value '1'
+Jun 17 09:31:34 fedora NetworkManager[1398]: <info>  [1686987094.3599] Config: added 'bgscan' value 'simple:30:-65:300'
+Jun 17 09:31:34 fedora NetworkManager[1398]: <info>  [1686987094.3599] Config: added 'key_mgmt' value 'NONE'
+Jun 17 09:31:34 fedora NetworkManager[1398]: <info>  [1686987094.3702] device (wlp0s20f3): supplicant interface state: disconnected -> inactive
+Jun 17 09:31:34 fedora NetworkManager[1398]: <info>  [1686987094.3702] device (p2p-dev-wlp0s20f3): supplicant management interface state: disconnected -> inactive
+Jun 17 09:31:34 fedora NetworkManager[1398]: <info>  [1686987094.3755] device (wlp0s20f3): supplicant interface state: inactive -> authenticating
+Jun 17 09:31:34 fedora NetworkManager[1398]: <info>  [1686987094.3755] device (p2p-dev-wlp0s20f3): supplicant management interface state: inactive -> authenticating
+Jun 17 09:31:34 fedora NetworkManager[1398]: <info>  [1686987094.4194] device (wlp0s20f3): supplicant interface state: authenticating -> associating
+Jun 17 09:31:34 fedora NetworkManager[1398]: <info>  [1686987094.4195] device (p2p-dev-wlp0s20f3): supplicant management interface state: authenticating -> associating
+Jun 17 09:31:34 fedora NetworkManager[1398]: <info>  [1686987094.4402] device (wlp0s20f3): supplicant interface state: associating -> completed
+Jun 17 09:31:34 fedora NetworkManager[1398]: <info>  [1686987094.4403] device (wlp0s20f3): Activation: (wifi) Stage 2 of 5 (Device Configure) successful. Connected to wireless network "vutbrno"
+Jun 17 09:31:34 fedora NetworkManager[1398]: <info>  [1686987094.4403] device (p2p-dev-wlp0s20f3): supplicant management interface state: associating -> completed
+Jun 17 09:31:34 fedora NetworkManager[1398]: <info>  [1686987094.4500] device (wlp0s20f3): state change: config -> ip-config (reason 'none', sys-iface-state: 'managed')
+Jun 17 09:31:34 fedora NetworkManager[1398]: <info>  [1686987094.4503] dhcp4 (wlp0s20f3): activation: beginning transaction (timeout in 45 seconds)
+Jun 17 09:31:34 fedora NetworkManager[1398]: <info>  [1686987094.4587] dhcp4 (wlp0s20f3): state changed new lease, address=100.69.160.109
+Jun 17 09:31:34 fedora NetworkManager[1398]: <info>  [1686987094.4589] policy: set 'vutbrno' (wlp0s20f3) as default for IPv4 routing and DNS
+Jun 17 09:31:34 fedora NetworkManager[1398]: <info>  [1686987094.4723] device (wlp0s20f3): state change: ip-config -> ip-check (reason 'none', sys-iface-state: 'managed')
+Jun 17 09:31:34 fedora NetworkManager[1398]: <info>  [1686987094.4998] device (wlp0s20f3): state change: ip-check -> secondaries (reason 'none', sys-iface-state: 'managed')
+Jun 17 09:31:34 fedora NetworkManager[1398]: <info>  [1686987094.5000] device (wlp0s20f3): state change: secondaries -> activated (reason 'none', sys-iface-state: 'managed')
+Jun 17 09:31:34 fedora NetworkManager[1398]: <info>  [1686987094.5004] manager: NetworkManager state is now CONNECTED_SITE
+Jun 17 09:31:34 fedora NetworkManager[1398]: <info>  [1686987094.5016] device (wlp0s20f3): Activation: successful, device activated.
+Jun 17 09:31:49 fedora NetworkManager[1398]: <info>  [1686987109.2004] manager: NetworkManager state is now CONNECTED_GLOBAL
+Jun 17 10:01:34 fedora NetworkManager[1398]: <info>  [1686988894.4849] dhcp4 (wlp0s20f3): state changed new lease, address=100.69.160.109
+Jun 17 10:02:53 fedora NetworkManager[1398]: <info>  [1686988973.4278] device (wlp0s20f3): supplicant interface state: completed -> disconnected
+Jun 17 10:02:53 fedora NetworkManager[1398]: <info>  [1686988973.4279] device (p2p-dev-wlp0s20f3): supplicant management interface state: completed -> disconnected
+Jun 17 10:02:53 fedora NetworkManager[1398]: <info>  [1686988973.5277] device (wlp0s20f3): supplicant interface state: disconnected -> scanning
+Jun 17 10:02:53 fedora NetworkManager[1398]: <info>  [1686988973.5278] device (p2p-dev-wlp0s20f3): supplicant management interface state: disconnected -> scanning
+Jun 17 10:02:53 fedora NetworkManager[1398]: <info>  [1686988973.8797] device (wlp0s20f3): supplicant interface state: scanning -> authenticating
+Jun 17 10:02:53 fedora NetworkManager[1398]: <info>  [1686988973.8797] device (p2p-dev-wlp0s20f3): supplicant management interface state: scanning -> authenticating
+Jun 17 10:02:53 fedora NetworkManager[1398]: <info>  [1686988973.9104] device (wlp0s20f3): supplicant interface state: authenticating -> associating
+Jun 17 10:02:53 fedora NetworkManager[1398]: <info>  [1686988973.9104] device (p2p-dev-wlp0s20f3): supplicant management interface state: authenticating -> associating
+Jun 17 10:02:53 fedora NetworkManager[1398]: <info>  [1686988973.9448] device (wlp0s20f3): supplicant interface state: associating -> completed
+Jun 17 10:02:53 fedora NetworkManager[1398]: <info>  [1686988973.9463] device (p2p-dev-wlp0s20f3): supplicant management interface state: associating -> completed
+Jun 17 10:02:53 fedora NetworkManager[1398]: <info>  [1686988973.9463] device (wlp0s20f3): ip:dhcp4: restarting
+Jun 17 10:02:53 fedora NetworkManager[1398]: <info>  [1686988973.9464] dhcp4 (wlp0s20f3): canceled DHCP transaction
+Jun 17 10:02:53 fedora NetworkManager[1398]: <info>  [1686988973.9464] dhcp4 (wlp0s20f3): activation: beginning transaction (timeout in 45 seconds)
+Jun 17 10:02:53 fedora NetworkManager[1398]: <info>  [1686988973.9464] dhcp4 (wlp0s20f3): state changed no lease
+Jun 17 10:02:53 fedora NetworkManager[1398]: <info>  [1686988973.9465] dhcp4 (wlp0s20f3): activation: beginning transaction (timeout in 45 seconds)
+Jun 17 10:02:53 fedora NetworkManager[1398]: <info>  [1686988973.9674] dhcp4 (wlp0s20f3): state changed new lease, address=100.69.160.109
+Jun 17 10:05:21 fedora NetworkManager[1398]: <info>  [1686989121.6869] manager: sleep: sleep requested (sleeping: no  enabled: yes)
+Jun 17 10:05:21 fedora NetworkManager[1398]: <info>  [1686989121.6874] device (p2p-dev-wlp0s20f3): state change: disconnected -> unmanaged (reason 'sleeping', sys-iface-state: 'managed')
